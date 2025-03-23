@@ -1,0 +1,64 @@
+/* Базовые стили для страницы */
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #fff9fc !important;
+  color: #333333 !important;
+}
+
+#root {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.container {
+  position: relative !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+  background-color: #fff9fc !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  padding: 1rem !important;
+}
+
+.title-container {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  transition: opacity 1s ease !important;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: clamp(2rem, 5vw, 6rem) !important;
+  font-weight: bold !important;
+  letter-spacing: 0.5rem !important;
+  color: #333333 !important;
+  text-align: center !important;
+}
+
+.divider {
+  width: 70px !important;
+  height: 1px !important;
+  background-color: #f5c2d6 !important;
+  margin-top: 1.5rem !important;
+}
+
+.subtitle {
+  margin-top: 2rem !important;
+  color: #333333 !important;
+  font-size: 0.9rem !important;
+  font-weight: normal !important;
+  letter-spacing: 0.2rem !important;
+  text-align: center !important;
+} 

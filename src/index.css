@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #f5c2d6;
+  --secondary-color: #333333;
+  --accent-color: #e99fb7;
+  --light-color: #fff9fc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grid-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.05;
+  background-image: 
+    radial-gradient(var(--primary-color) 1px, transparent 1px);
+  background-size: 20px 20px;
+  z-index: -1;
+} 
